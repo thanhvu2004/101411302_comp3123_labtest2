@@ -11,3 +11,6 @@
 
 ### Submit An Invalid Search
 ![Submit An Invalid Search](./Screenshot/Invalid_Loc.png)
+
+### Postman Test
+![Postman Test](./Screenshot/Postman.png)
