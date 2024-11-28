@@ -1,5 +1,10 @@
 # Weather App by Conor Le
 
+#### v2:
+### Updated UI
+![Updated UI](./Screenshot/Updated_UI.png)
+
+#### v1:
 ### Default Home Page:
 ![Default Home Page](./Screenshot/HomePage.png)
 

@@ -21,17 +21,43 @@ img {
   height: 100px;
 }
 
-.container {
+.parent_container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
+  height: fit-content;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.main_container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 50%;
+  width: 30%;
   background-color: #ADD8E6;
-  margin: 20px auto;
+  margin: 0px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  flex: 1;
+}
+
+.side_container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin:0px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  flex: 1;
+}
+
+.side_container * {
+  align-self: flex-start;
 }
 
 .switch-container {
