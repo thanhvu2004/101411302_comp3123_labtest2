@@ -1,10 +1,5 @@
 # Weather App by Conor Le
 
-#### v2:
-### Updated UI
-![Updated UI](./Screenshot/Updated_UI.png)
-
-#### v1:
 ### Default Home Page:
 ![Default Home Page](./Screenshot/HomePage.png)
 
@@ -17,8 +12,8 @@
 ### Submit An Invalid Search
 ![Submit An Invalid Search](./Screenshot/Invalid_Loc.png)
 
-### Change To Celsius
-![Change To Celsius](./Screenshot/To_Celsius.png)
+### Change To Fahrenheit
+![Change To Fahrenheit](./Screenshot/To_Fahrenheit.png)
 
 ### Postman Test
 ![Postman Test](./Screenshot/Postman.png)
