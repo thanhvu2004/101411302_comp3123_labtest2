@@ -12,5 +12,8 @@
 ### Submit An Invalid Search
 ![Submit An Invalid Search](./Screenshot/Invalid_Loc.png)
 
+### Change To Celsius
+![Change To Celsius](./Screenshot/To_Celsius.png)
+
 ### Postman Test
 ![Postman Test](./Screenshot/Postman.png)

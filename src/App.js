@@ -34,14 +34,6 @@ function App() {
       });
   };
 
-  const kelvinToCelsius = (kelvin) => {
-    return (kelvin - 273.15).toFixed(2);
-  };
-
-  const kelvinToFahrenheit = (kelvin) => {
-    return (((kelvin - 273.15) * 9) / 5 + 32).toFixed(2);
-  };
-
   return (
     <div className="App">
       <h1>Weather App</h1>
@@ -51,8 +43,6 @@ function App() {
       {weatherData && (
         <WeatherDisplay
           weatherData={weatherData}
-          kelvinToCelsius={kelvinToCelsius}
-          kelvinToFahrenheit={kelvinToFahrenheit}
         />
       )}
     </div>
